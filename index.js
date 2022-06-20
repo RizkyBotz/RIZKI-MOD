@@ -2027,13 +2027,13 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
   case 'public': {
   if (!isCreator) return reply(mess.owner)
   chika.public = true
-  reply('Sukse Change To Public Usage')
+  reply('Sukse Mode Public')
   }
   break
   case 'self': {
   if (!isCreator) return reply(mess.owner)
   chika.public = false
-  reply('Sukses Change To Self Usage')
+  reply('Sukses Mode Self')
   }
   break
   case 'ping': case 'botstatus': case 'statusbot': {
